@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\mytsa\Desktop\course2_semester2\CI_CD\lab3\Restaurant_Django_Project\myvenv
+set VIRTUAL_ENV=C:\Users\mytsa\Desktop\course2_semester2\Lab3_CI_CD\Restaurant_Django_Project\restaurant\myvenv
 
 if not defined PROMPT set PROMPT=$P$G
 

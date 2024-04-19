@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\mytsa\Desktop\course2_semester2\CI_CD\lab3\Restaurant_Django_Project\myvenv"
+VIRTUAL_ENV="C:\Users\mytsa\Desktop\course2_semester2\Lab3_CI_CD\Restaurant_Django_Project\restaurant\myvenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

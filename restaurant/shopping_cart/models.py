@@ -29,6 +29,6 @@ class Order(models.Model):
     user = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True)
     address = models.CharField(max_length=256)
     total_price = models.DecimalField(max_digits=8, decimal_places=2, default=0.00)
-    shopping_cart = models.ForeignKey(to=ShoppingCart, on_delete=models.SET_NULL)
-    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default=WAITING)
+    shopping_cart = models.ForeignKey(to=ShoppingCart, on_delete=models.SET_NULL, null=True)
+    status = models.CharField(max_length=30, choices=STATUS_CHOICES, default=WAITING)
 
