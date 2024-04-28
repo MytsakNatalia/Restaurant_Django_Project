@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block head %}
+    <h1>Initial menu</h1>
+    <style>
+        img {
+            max-width: 200px; 
+            max-height: 150px; 
+        }
+    </style>
+    {% endblock %}
+</head>
+<body>
+    {% block content %}
+    
+    <!-- Iterate over categories -->
+    {% for category in categories %}
+        <h2>{{ category.name }}</h2>
+        <ul>
+            <!-- Iterate over meals belonging to the current category -->
+            {% for meal in meals %}
+                {% if meal.category == category %}
+                    <li>
+                        <strong>{{ meal.name }}</strong> - ${{ meal.price }} - {{ meal.weight }}g
+                        {% if meal.is_vegan %}
+                            <span>Vegan</span>
+                        {% endif %}
+                        {% if meal.is_spicy %}
+                            <span>Spicy</span>
+                        {% endif %}
+                        {% if meal.image %}
+                            <img src="{{ meal.image.url }}" alt="{{ meal.name }}">
+                        {% endif %}
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    {% endfor %}
+
+    {% endblock %}
+</body>
+</html>
