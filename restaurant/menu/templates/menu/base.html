@@ -1,52 +1,101 @@
 <!DOCTYPE html>
 <html>
 
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>NaNa Italiano</h1>
-                <p>Anastasiia Levchenko & Nataliia Mytsak</p>
-            </div>
-        </div>
-    </div>
-</header>
-
-
 <head>
-    {% block head%} {% endblock %}
+    <style>        
+        header {
+            width: 100%;
+            background-color: #fff;
+            z-index: 1000; 
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        .category-strip {
+            background-color: #f8f9fa; 
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .category-strip ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .category-strip ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
 </head>
 
-
 <body>
-    {%block content%} {%endblock%}
-</body>
-
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h4>Contact Us</h4>
-                <p>Phone: +380 (65) 777 88 99</p>
-                <p>Address: Central Square, Kyiv, Ukraine</p>
-                <p>Business Hours:<br>
-                    Mon-Sat: 10am - 10pm<br>
-                    Sun: 11pm - 8pm</p>  
-            </div>
-            <div class="col-md-4">
-                <h4>Follow Us</h4>
-               <img src="instagram.png" alt="Instagram"></a> <p>@nana_italiano</p>
-               <img src="tiktok.png" alt="TikTok"></a>  <p>@nana_italiano</p>
-            </div>
-        <hr>
-        <div class="row">
-            <div class="col-md-12">
-                <p>&copy; 2024 NaNa Italiano. All Rights Reserved.</p>
-                <p>Privacy Policy | Terms of Service</p>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>NaNa Italiano</h1>
+                    <p>Anastasiia Levchenko & Nataliia Mytsak</p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+        
+        
+        <nav class="category-strip">
+            <div class="container">
+                <ul>
+                    {% for category in categories %}
+                    <li>{{ category.name }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </nav>
+
+        
+        <nav class="category-strip">
+            <div class="container">
+                <ul>
+                    <li>Vegan</li>
+                    <li>Spicy</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Contact Us</h4>
+                    <p>Phone: +380 (65) 777 88 99</p>
+                    <p>Address: Central Square, Kyiv, Ukraine</p>
+                    <h4>Business Hours:<br> Mon-Sat: 10am - 10pm<br> Sun: 11pm - 8pm</h4>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>                
+                    <p>Instagram:  @nana_italiano</p>                    
+                    <p>TikTok:     @nana_italiano</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2024 NaNa Italiano. All Rights Reserved.</p>
+                    <p>Privacy Policy | Terms of Service</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 
 </html>
