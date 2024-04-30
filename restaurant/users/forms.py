@@ -50,7 +50,7 @@ class UserProfileForm(UserChangeForm):
         'class': 'form-control py-4', 'placeholder': "Input your email",
         'readonly': True
     }))
-    
+
     class Meta:
         model = User
         fields = ('first_name', 'last_name', 'image', 'username', 'email')
