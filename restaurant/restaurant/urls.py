@@ -22,8 +22,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('menu/', index, name='index'),
-    path('', index, name='index'),    
+    path('menu/', index, name='index'),    
     path('menu/details/<int:meal_id>/', meal_detail, name='meal_detail'),
 ]
 
