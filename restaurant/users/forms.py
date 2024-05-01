@@ -36,19 +36,17 @@ class UserRegistrationForm(UserCreationForm):
 
 
 class UserProfileForm(UserChangeForm):
-    first_name = forms.CharField(widget=forms.TextInput(attrs={
-        'class': 'form-control py-4', 'placeholder': "Input first name"
+    first_name = forms.CharField(max_length=100, widget=forms.TextInput(attrs={
+        'class': 'form-control py-4'
     }))
-    last_name = forms.CharField(widget=forms.TextInput(attrs={
-        'class': 'form-control py-4', 'placeholder': "Input last name"
+    last_name = forms.CharField(max_length=100, widget=forms.TextInput(attrs={
+        'class': 'form-control py-4'
     }))
     username = forms.CharField(widget=forms.TextInput(attrs={
-        'class': 'form-control py-4', 'placeholder': "Input user name",
-        'readonly': True
+        'class': 'form-control py-4', 'readonly': True
     }))
-    email = forms.CharField(widget=forms.EmailInput(attrs={
-        'class': 'form-control py-4', 'placeholder': "Input your email",
-        'readonly': True
+    email = forms.EmailField(widget=forms.EmailInput(attrs={
+        'class': 'form-control py-4', 'readonly': True
     }))
 
     class Meta:
