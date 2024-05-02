@@ -20,6 +20,7 @@ from menu.views import *
 from django.conf.urls.static import static
 from django.conf import settings
 from users.views import login
+from  shopping_cart.views import view_cart, add_to_cart
 
 urlpatterns = [
     path('', login, name='login'),
@@ -27,6 +28,8 @@ urlpatterns = [
     path('users/', include('users.urls', namespace='users')),
     path('menu/', index, name='index'),    
     path('menu/details/<int:meal_id>/', meal_detail, name='meal_detail'),
+    path('view_cart', view_cart, name='view_cart'),
+    path('add_to_cart/<int:meal_id>/', add_to_cart, name='add_to_cart'),
 ]
 
 if settings.DEBUG:
