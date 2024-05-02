@@ -1,4 +1,3 @@
-from django.shortcuts import render
 
 # Create your views here.
 from django.shortcuts import render, HttpResponseRedirect
@@ -16,7 +15,9 @@ def login(request):
             user = auth.authenticate(username=username, password=password)
             if user:
                 auth.login(request, user)
-                return   HttpResponseRedirect(reverse('users:profile'))
+                if(not ShoppingCart.objects.filter(user=user, is_active=True).exists()):
+                    ShoppingCart.objects.create(user=user, is_active=True)
+                return   HttpResponseRedirect(reverse('index'))
     else:
         form = UserLoginForm()
     context = {'form':form}

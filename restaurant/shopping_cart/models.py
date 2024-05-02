@@ -1,5 +1,6 @@
 from django.db import models
 from users.models import User
+from menu.models import Meal
 # Create your models here.
 class ShoppingCart(models.Model):
     user = models.ForeignKey(to=User, on_delete=models.SET_NULL, null=True)
@@ -9,6 +10,7 @@ class ShoppingCartItem(models.Model):
     shopping_cart = models.ForeignKey(to=ShoppingCart, on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(default=0)
     total_price = models.DecimalField(max_digits=8, decimal_places=2, default=0.00)
+    meal = models.ForeignKey(to =Meal, on_delete=models.CASCADE)
 
 
 class Order(models.Model):

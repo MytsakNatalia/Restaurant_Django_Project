@@ -21,11 +21,15 @@ from users.views import *
 from reservations.views import *
 from django.conf.urls.static import static
 from django.conf import settings
+from users.views import login
+from  shopping_cart.views import view_cart, add_to_cart
 
 urlpatterns = [
+    path('', login, name='login'),
     path('admin/', admin.site.urls),
     path('users/', include('users.urls', namespace='users')),
     path ('menu/', include('menu.urls', namespace='menu')),
+    path('shopping_cart/', include('shopping_cart.urls', namespace='shopping_cart')),
     path('reservations/', include('reservations.urls', namespace='reservations')),
 ]
 
