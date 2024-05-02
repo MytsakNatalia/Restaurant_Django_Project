@@ -24,3 +24,11 @@ def add_to_cart(request, meal_id):
         cart_item.total_price = cart_item.quantity*cart_item.meal.price
         cart_item.save()
     return redirect(request.META.get('HTTP_REFERER', 'menu/'))
+
+def remove_from_cart(request, meal_id):
+    meal = Meal.objects.get(id=meal_id)
+    user_cart = ShoppingCart.objects.get(user=request.user, is_active=True)
+    meal_cart_item = ShoppingCartItem.objects.get(shopping_cart=user_cart, meal=meal)
+    meal_cart_item.delete()
+    return redirect(request.META.get('HTTP_REFERER', 'shopping_cart/view_cart'))
+

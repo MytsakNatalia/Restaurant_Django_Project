@@ -37,7 +37,7 @@
         </ul>
         <div class="card-footer">
             <p class="float-left">Total price : {{ item.total_price }}</p>
-          <a href="#" class="btn btn-danger btn-lg ml-5">Delete</a>
+          <a href="{% url 'remove_from_cart' item.meal.id %}" class="btn btn-danger btn-lg ml-5">Delete</a>
 
 
         </div>
