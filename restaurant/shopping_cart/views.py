@@ -51,6 +51,7 @@ def create_order(request):
             order.user = request.user
 
             order.shopping_cart = user_cart
+            user_cart.is_active = False
             order.total_price = calculate_total_price(user_cart)
             order.save()
             return redirect('menu/index')
