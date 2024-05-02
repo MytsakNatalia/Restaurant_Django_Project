@@ -32,3 +32,12 @@ def remove_from_cart(request, meal_id):
     meal_cart_item.delete()
     return redirect(request.META.get('HTTP_REFERER', 'shopping_cart/view_cart'))
 
+def change_quantity(request, meal_id, quantity):
+    meal = Meal.objects.get(id=meal_id)
+    user_cart = ShoppingCart.objects.get(user=request.user, is_active=True)
+    meal_cart_item = ShoppingCartItem.objects.get(shopping_cart=user_cart, meal=meal)
+    meal_cart_item.quantity = quantity
+    meal_cart_item.save()
+    return redirect(request.META.get('HTTP_REFERER', 'shopping_cart/view_cart'))
+
+
