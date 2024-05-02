@@ -1,0 +1,15 @@
+{% extends 'menu/base.html' %}
+
+{% block content %}
+<h1>My Orders</h1>
+    <ul>
+        {% for order in orders %}
+            <li>{{ order.id }} - {{ order.address }} - {{ order.total_price }} - {{ order.status }}
+               {% if order.status == 'Waiting for processing' %}
+                 <a class="btn btn-lg btn-danger" href="{% url 'shopping_cart:cancel_order' order.id %}">Cancel</a>
+               {% endif %}
+            </li>
+
+        {% endfor %}
+    </ul>
+{% endblock %}
