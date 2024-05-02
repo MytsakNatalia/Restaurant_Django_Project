@@ -10,24 +10,7 @@
             padding: 10px 0;
             text-align: center;
         }
-        
-        .category-strip {
-            background-color: #f8f9fa; 
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        .category-strip ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .category-strip ul li {
-            display: inline-block;
-            margin-right: 10px;
-        }
-        
+       
         .additional-links {
             display: inline-block;
             margin-top: 10px; /* Adjust the top margin as needed */
@@ -64,26 +47,6 @@
             </div>
         </div>
         
-        <!-- Navigation for categories -->
-        <nav class="category-strip">
-            <div class="container">
-                <ul>
-                    {% for category in categories %}
-                    <li>{{ category.name }}</li>
-                    {% endfor %}                                      
-                </ul>
-            </div>
-        </nav>
-
-        <nav class="category-strip">
-            <div class="container">
-                <ul>
-                    <li>Vegan</li>
-                    <li>Spicy</li>
-                </ul>
-            </div>
-        </nav>
-
         <!-- Navigation for additional links -->
         <nav class="additional-links">
             <div class="container">

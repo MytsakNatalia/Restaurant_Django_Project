@@ -51,7 +51,7 @@
                                 <p>Price: ${{ meal.price }}</p>
                                 <p>Weight: {{ meal.weight }}g</p>
                                 <p>{% if meal.is_vegan %}Vegan{% endif %}{% if meal.is_spicy %} | Spicy{% endif %}</p>
-                                <a href="{% url 'meal_detail' meal.id %}" class="btn btn-primary">Details</a>
+                                <a href="{% url 'menu:meal_detail' meal.id %}" class="btn btn-primary">Details</a>
                                 <a href="#" class="btn btn-success">In box</a>
                             </div>
                         </div>

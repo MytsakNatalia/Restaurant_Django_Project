@@ -17,14 +17,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from menu.views import *
+from users.views import *
+from reservations.views import *
 from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('users/', include('users.urls', namespace='users')),
-    path('menu/', index, name='index'),    
-    path('menu/details/<int:meal_id>/', meal_detail, name='meal_detail'),
+    path ('menu/', include('menu.urls', namespace='menu')),
+    path('reservations/', include('reservations.urls', namespace='reservations')),
 ]
 
 if settings.DEBUG:
