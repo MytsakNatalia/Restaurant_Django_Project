@@ -19,8 +19,10 @@ from django.urls import path, include
 from menu.views import *
 from django.conf.urls.static import static
 from django.conf import settings
+from users.views import login
 
 urlpatterns = [
+    path('', login, name='login'),
     path('admin/', admin.site.urls),
     path('users/', include('users.urls', namespace='users')),
     path('menu/', index, name='index'),    
