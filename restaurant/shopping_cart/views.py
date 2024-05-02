@@ -74,4 +74,14 @@ def view_orders(request):
     }
     return  render(request, 'shopping_cart/view_orders.html', context)
 
+def cancel_order(request, order_id):
+    order = Order.objects.get(id=order_id)
+
+
+    order.status = Order.CANCELED
+    order.save()
+
+    return redirect(request.META.get('HTTP_REFERER', 'shopping_cart/view_orders'))
+
+
 
