@@ -24,7 +24,7 @@
                     <div class="col-lg-12">
                         <input name="basketID" type="number" class="form-control" value="{{ item.quantity }}"
                                min="0">
-                        <a class="btn btn-lg btn-primary mt-3">Change quantity</a>
+                        <a class="btn btn-lg btn-primary mt-3" href="{% url 'shopping_cart:change_quantity' item.meal.id item.quantity %}">Change quantity</a>
                     </div>
                     <div class="col-lg-12">Price for one portion: {{ item.meal.price }}</div>
                     <div class="col-lg-12">
@@ -37,7 +37,7 @@
         </ul>
         <div class="card-footer">
             <p class="float-left">Total price : {{ item.total_price }}</p>
-          <a href="{% url 'remove_from_cart' item.meal.id %}" class="btn btn-danger btn-lg ml-5">Delete</a>
+          <a href="{% url 'shopping_cart:remove_from_cart' item.meal.id %}" class="btn btn-danger btn-lg ml-5">Delete</a>
 
 
         </div>
