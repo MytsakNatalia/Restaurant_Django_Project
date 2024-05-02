@@ -22,7 +22,7 @@ from reservations.views import *
 from django.conf.urls.static import static
 from django.conf import settings
 from users.views import login
-from  shopping_cart.views import view_cart, add_to_cart
+from shopping_cart.views import view_cart, add_to_cart
 
 urlpatterns = [
     path('', login, name='login'),

@@ -17,7 +17,7 @@ def login(request):
                 auth.login(request, user)
                 if(not ShoppingCart.objects.filter(user=user, is_active=True).exists()):
                     ShoppingCart.objects.create(user=user, is_active=True)
-                return   HttpResponseRedirect(reverse('index'))
+                return   HttpResponseRedirect(reverse('menu:index'))
     else:
         form = UserLoginForm()
     context = {'form':form}

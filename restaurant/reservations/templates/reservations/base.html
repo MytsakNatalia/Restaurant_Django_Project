@@ -34,6 +34,7 @@
             text-align: center;
         }
     </style>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -55,7 +56,7 @@
                     <li><a href="{% url 'reservations:user_reservations'%}">My Reservations</a></li>
                     <li> <a href="{% url 'reservations:booktbl'%}"> Book Table</a></li>
                     <li> <a href="{% url 'users:profile'%}"> My Profile</a></li>
-                    <li><a href="{%url 'users:login' %}">Log out</a></li>
+                    <li><a href="{%url 'users:logout' %}">Log out</a></li>
                 </ul>
             </div>
         </nav>
