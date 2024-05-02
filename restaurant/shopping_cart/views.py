@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from  .models import ShoppingCart, ShoppingCartItem
+from  .models import ShoppingCart, ShoppingCartItem, Order
 from menu.models import Meal
 from .forms import OrderForm
 # Create your views here.
@@ -43,20 +43,21 @@ def change_quantity(request, meal_id):
     return redirect(request.META.get('HTTP_REFERER', 'shopping_cart/view_cart'))
 
 def create_order(request):
+    user_cart = ShoppingCart.objects.get(user=request.user, is_active=True)
     if request.method == 'POST':
         form = OrderForm(request.POST)
         if form.is_valid():
             order = form.save(commit=False)
             order.user = request.user
-            user_cart = ShoppingCart.objects.get(user=request.user, is_active=True)
+
             order.shopping_cart = user_cart
             order.total_price = calculate_total_price(user_cart)
             order.save()
             return redirect('menu/index')
     else:
         form = OrderForm()
-        form.fields['total_price'].initial = calculate_total_price()
-    return render(request, 'order/create.html', {'form': form})
+        form.fields['total_price'].initial = calculate_total_price(user_cart)
+    return render(request, 'shopping_cart/create_order.html', {'form': form})
 
 def calculate_total_price(cart):
     total_price = 0
@@ -65,5 +66,12 @@ def calculate_total_price(cart):
         total_price += item.total_price
     return total_price
 
+
+def view_orders(request):
+    orders = Order.objects.filter(user=request.user)
+    context = {
+        'orders': orders
+    }
+    return  render(request, 'shopping_cart/view_orders.html', context)
 
 

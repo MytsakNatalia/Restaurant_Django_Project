@@ -6,9 +6,9 @@ class OrderForm(forms.ModelForm):
 
     class Meta:
         model = Order
-        fields = ('address', 'total_price', 'status')
+        fields = ('address', 'total_price')
 
     def __init__(self, *args, **kwargs):
         super(OrderForm, self).__init__(*args, **kwargs)
         self.fields['address'].widget.attrs.update({'class': 'form-control py-4'})
-        self.fields['status'].widget.attrs.update({'class': 'form-control py-4'})
+

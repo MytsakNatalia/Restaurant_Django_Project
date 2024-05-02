@@ -1,0 +1,10 @@
+{% extends 'menu/base.html' %}
+
+{% block content %}
+<h1>My Orders</h1>
+    <ul>
+        {% for order in orders %}
+            <li>{{ order.id }} - {{ order.address }} - {{ order.total_price }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
