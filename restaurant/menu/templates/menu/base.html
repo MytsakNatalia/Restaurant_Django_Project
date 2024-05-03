@@ -27,10 +27,25 @@
             display: inline-block;
             margin-right: 10px;
         }
+
+        .selected-category-title {
+            margin-top: 20px;
+            border-bottom: 2px solid blue; 
+            padding-bottom: 10px;
+        }
+
+        .category-title {
+            margin-top: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            {% if selected_category_id == category.id %}
+                color: blue; /* Change color for the selected category */
+            {% endif %}
+        }
         
         .additional-links {
             display: inline-block;
-            margin-top: 10px; /* Adjust the top margin as needed */
+            margin-top: 10px; 
         }
 
         .additional-links ul {
@@ -68,15 +83,23 @@
         </div>
         
         <!-- Navigation for categories -->
-        <nav class="category-strip">
-            <div class="container">
-                <ul>
-                    {% for category in categories %}
-                    <li>{{ category.name }}</li>
-                    {% endfor %}                                      
-                </ul>
-            </div>
-        </nav>
+    <nav class="category-strip">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="{% url 'menu:index' %}" {% if not selected_category_id %}class="active"{% endif %}>All Categories</a>
+                </li>
+                {% for category in categories %}
+                    <li>
+                        <a href="{% url 'menu:category' category.id %}" {% if selected_category_id == category.id %}class="active"{% endif %}>
+                            {{ category.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+
 
         <nav class="category-strip">
             <div class="container">
