@@ -98,14 +98,14 @@
     </nav>
 
 
-        <nav class="category-strip">
-            <div class="container">
-                <ul>
-                    <li>Vegan</li>
-                    <li>Spicy</li>
-                </ul>
-            </div>
-        </nav>
+    <nav class="category-strip">
+        <div class="container">
+            <ul>
+                <li><a href="{% url 'menu:index' %}?vegan=1" {% if vegan %}class="active"{% endif %}>Vegan</a></li>
+                <li><a href="{% url 'menu:index' %}?spicy=1" {% if spicy %}class="active"{% endif %}>Spicy</a></li>
+            </ul>
+        </div>
+    </nav>
 
         <!-- Navigation for additional links -->
         <nav class="additional-links">
