@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, reverse
 from  .models import ShoppingCart, ShoppingCartItem, Order
 from menu.models import Meal
 from .forms import OrderForm
@@ -52,9 +52,11 @@ def create_order(request):
 
             order.shopping_cart = user_cart
             user_cart.is_active = False
+            user_cart.save()
+            ShoppingCart.objects.create(user=request.user, is_active=True)
             order.total_price = calculate_total_price(user_cart)
             order.save()
-            return redirect('menu/index')
+            return redirect(reverse('menu:index'))
     else:
         form = OrderForm()
         form.fields['total_price'].initial = calculate_total_price(user_cart)

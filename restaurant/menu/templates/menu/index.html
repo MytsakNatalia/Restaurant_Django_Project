@@ -58,7 +58,7 @@
                                     <p>Weight: {{ meal.weight }}g</p>
                                     <p>{% if meal.is_vegan %}Vegan{% endif %}{% if meal.is_spicy %} | Spicy{% endif %}</p>
                                     <a href="{% url 'menu:meal_detail' meal.id %}" class="btn btn-primary">Details</a>
-                                    <a href="#" class="btn btn-success">In box</a>
+                                    <a href="{% url 'shopping_cart:add_to_cart' meal.id %}" class="btn btn-success">Add to cart</a>
                                 </div>
                             </div>
                         {% endif %}
