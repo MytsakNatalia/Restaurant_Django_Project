@@ -1,6 +1,6 @@
-name: Build Docker Image
+-name: Build Docker Image
 run: docker build . --file Dockerfile --tag my-image-name:1234567890
 
-name: Run Docker container
+-name: Run Docker container
 run: docker run --name my-container -d -e DJANGO_SETTINGS_MODULE=Site.settings my-image-name:1234567890
 
