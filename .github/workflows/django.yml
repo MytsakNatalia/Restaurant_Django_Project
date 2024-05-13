@@ -1,6 +1,38 @@
-- name: Build Docker Image
-run: docker build . --file Dockerfile --tag my-image-name:1234567890
+name: Django CI
 
-- name: Run Docker container
-run: docker run --name my-container -d -e DJANGO_SETTINGS_MODULE=Site.settings my-image-name:1234567890
+on:
+  push:
+    branches: 
+      - main
+      - develop 
+  pull_request:
+    branches: 
+      - main 
+      - develop
 
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Build Docker image
+      run: docker build . --file Dockerfile --tag my-image-name:1234567890
+
+    - name: Run Docker container
+      run: docker run --name my-container -d -e DJANGO_SETTINGS_MODULE=Site.settings my-image-name:1234567890
+
+    - name: Run Django tests
+      run: docker exec my-container python manage.py test
