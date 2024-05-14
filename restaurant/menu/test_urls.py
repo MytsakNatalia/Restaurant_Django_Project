@@ -3,11 +3,7 @@ from django.urls import reverse, resolve
 from menu.views import *
 from users.views import *
   
-class TestUrlsMenu(TestCase):  
-    def test_index_url_is_resolved(self):
-        url = reverse('menu:index')
-        self.assertEquals(resolve(url).func, index)
-    
+class TestUrlsMenu(TestCase):      
     def setUp(self):
         # Create a Category object for testing
         self.category = Category.objects.create(name='Test Category')
@@ -23,6 +19,10 @@ class TestUrlsMenu(TestCase):
             image='meals_images/test_image.jpg'
         )
     
+    def test_index_url_is_resolved(self):
+        url = reverse('menu:index')
+        self.assertEquals(resolve(url).func, index)
+        
     def test_category_url_is_resolved(self):        
         url = reverse('menu:category', args=[self.category.pk])          
         self.assertEquals(resolve(url).func, index)
