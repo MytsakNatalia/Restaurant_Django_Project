@@ -33,3 +33,18 @@ jobs:
 
     - name: Run Docker container
       run: docker run --name my-container -d -e DJANGO_SETTINGS_MODULE=Site.settings my-image-name:1234567890
+
+    - name: Run Django tests
+      run: docker exec my-container python manage.py test
+
+    - name: Generate HTML report
+      run: |
+        docker exec my-container coverage run manage.py test
+        docker exec my-container coverage html
+
+    - name: Upload reports
+      uses: actions/upload-artifact@v2
+      with:
+        name: Test and lint reports
+        path: |
+          htmlcov/index.html
