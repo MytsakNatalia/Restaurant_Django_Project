@@ -1,4 +1,4 @@
-
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 from django.shortcuts import render, HttpResponseRedirect
 from django.contrib import auth, messages
@@ -40,12 +40,13 @@ def registartion(request):
     context = { 'form' : form }
     return  render(request, 'users/register.html', context)
 
+@login_required
 def profile(request):
     if request.method == 'POST':
         form = UserProfileForm(instance=request.user, data = request.POST, files=request.FILES)
         if form.is_valid():
             form.save()
-            return  HttpResponseRedirect(reverse('index'))
+            return  HttpResponseRedirect(reverse('menu:index'))
         else:
             print(form.errors)
     else:
