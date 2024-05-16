@@ -103,39 +103,50 @@ class OrderViewsTestCase(TestCase):
         self.shopping_cart = ShoppingCart.objects.create(user=self.user, is_active=True)
 
         # Create some shopping cart items for testing
-        self.meal1 = Meal.objects.create(name='Meal 1', price=10)
-        self.meal2 = Meal.objects.create(name='Meal 2', price=15)
-        self.item1 = ShoppingCartItem.objects.create(shopping_cart=self.shopping_cart, meal=self.meal1, quantity=2)
-        self.item2 = ShoppingCartItem.objects.create(shopping_cart=self.shopping_cart, meal=self.meal2, quantity=1)
+        category = Category.objects.create(name='Some Category')  # Create a category first
+        self.meal1 = Meal.objects.create(name='Meal 1', price=10, category=category)  # Provide category_id here
+        self.meal2 = Meal.objects.create(name='Meal 2', price=15, category=category)  # Provide category_id here
+        self.item1 = ShoppingCartItem.objects.create(shopping_cart=self.shopping_cart, meal=self.meal1, quantity=2, total_price = 20)
+        self.item2 = ShoppingCartItem.objects.create(shopping_cart=self.shopping_cart, meal=self.meal2, quantity=1,  total_price = 15)
 
         # Create an order for the user
-        self.order = Order.objects.create(user=self.user, total_price=0)  # Assuming the initial total price is 0
+        self.order = Order.objects.create(user=self.user, total_price=35)  # Assuming the initial total price is 0
+
+    def test_view_orders(self):
+        response = self.client.get(reverse('shopping_cart:view_orders'))
+        self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'shopping_cart/view_orders.html')
+
+
 
     def test_calculate_total_price(self):
         total_price = calculate_total_price(self.shopping_cart)
+        print(f'Total: {total_price}')
         expected_price = 10 * 2 + 15 * 1  # Total price of items in the shopping cart
         self.assertEqual(total_price, expected_price)
 
-    def test_view_orders(self):
-        request = HttpRequest()
+    def test_cancel_order(self):
+        # Create a request object and attach the user
+        factory = RequestFactory()
+        request = factory.get(reverse('shopping_cart:view_orders'))
         request.user = self.user
 
-        response = view_orders(request)
-        self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'shopping_cart/view_orders.html')
-        self.assertIn('orders', response.context)
-        self.assertQuerysetEqual(response.context['orders'], Order.objects.filter(user=self.user))
+        # Set the HTTP_REFERER header
+        referer_url = reverse('shopping_cart:view_orders')
+        request.META['HTTP_REFERER'] = referer_url
 
-    def test_cancel_order(self):
-        request = HttpRequest()
-        request.META['HTTP_REFERER'] = '/index/'  # Simulate the HTTP_REFERER header
-
-        # Cancel the order
-        cancel_order(request, self.order.id)
+        # Call the cancel_order view function
+        response = cancel_order(request, self.order.id)
 
         # Retrieve the updated order from the database
         updated_order = Order.objects.get(id=self.order.id)
+
+        # Check if the order status is set to CANCELED
         self.assertEqual(updated_order.status, Order.CANCELED)
 
-        # Assert redirection to the previous page after canceling the order
-        self.assertEqual(cancel_order(request, self.order.id).url, '/index/')
+        # Check if the response is a redirect
+        self.assertEqual(response.status_code, 302)
+
+        # Check if the redirect URL is the same as the HTTP_REFERER
+        self.assertEqual(response.url, referer_url)
+

@@ -1,3 +1,6 @@
+from decimal import Decimal
+
+from django.http import HttpRequest
 from django.shortcuts import render, redirect, reverse
 from  .models import ShoppingCart, ShoppingCartItem, Order
 from menu.models import Meal
@@ -63,10 +66,12 @@ def create_order(request):
     return render(request, 'shopping_cart/create_order.html', {'form': form})
 
 def calculate_total_price(cart):
-    total_price = 0
+    total_price = Decimal('0.00')
     shopping_cart_items = ShoppingCartItem.objects.filter(shopping_cart=cart)
     for item in shopping_cart_items:
+        #print(f"Item total price: {item.total_price}")
         total_price += item.total_price
+       # print(f"Total price after adding item: {total_price}")
     return total_price
 
 
@@ -76,6 +81,7 @@ def view_orders(request):
         'orders': orders
     }
     return  render(request, 'shopping_cart/view_orders.html', context)
+
 
 def cancel_order(request, order_id):
     order = Order.objects.get(id=order_id)
