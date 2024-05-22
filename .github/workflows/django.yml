@@ -27,7 +27,7 @@ jobs:
    
 
     - name: Run Django tests
-      run:  python manage.py test
+      run:  python restaurant/manage.py test
 
     - name: Generate HTML report
       run: |
