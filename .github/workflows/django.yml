@@ -2,13 +2,9 @@ name: Django CI
 
 on:
   push:
-    branches: 
-      - main
-      - develop 
+    branches: [main]      
   pull_request:
-    branches: 
-      - main 
-      - develop
+    branches: [main]      
 
 jobs:
 
@@ -48,3 +44,33 @@ jobs:
         name: Test and lint reports
         path: |
           htmlcov/index.html
+  merge:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' && success()
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Set up Git
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+
+    - name: Install GitHub CLI
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y curl
+        curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+        sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
+        echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+        sudo apt-get update
+        sudo apt-get install gh
+
+    - name: Merge Pull Request
+      env:
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      run: |
+        PR_NUMBER=${{ github.event.pull_request.number }}
+        gh pr merge $PR_NUMBER --merge --repo ${{ github.repository }} --delete-branch

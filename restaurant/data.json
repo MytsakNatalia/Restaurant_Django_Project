@@ -1,0 +1,3637 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-04-23T17:54:13.926Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Піца",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-04-23T17:54:32.589Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Паста",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-04-23T17:54:59.119Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Салати",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-04-23T17:55:07.806Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Супи",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-04-23T17:55:28.728Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Закуски",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-04-23T17:55:34.850Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "Десерти",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-04-23T17:55:40.401Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Напої",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-04-23T18:40:47.864Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Напої",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-04-23T18:40:47.877Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "Десерти",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-04-23T18:40:47.887Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Закуски",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-04-23T18:40:47.900Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Супи",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-04-23T18:40:47.913Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Салати",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-04-23T18:40:47.924Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Паста",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-04-23T18:40:47.935Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Піца",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-04-23T18:41:38.190Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "8",
+        "object_repr": "Appetizers",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-04-23T18:41:51.765Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "9",
+        "object_repr": "Pizza",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-04-23T18:41:59.959Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "10",
+        "object_repr": "Pasta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-04-23T18:42:12.554Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "11",
+        "object_repr": "Salads",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-04-23T18:42:23.721Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "12",
+        "object_repr": "Soups",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-04-23T18:42:34.516Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "13",
+        "object_repr": "Desserts",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-04-23T18:42:48.215Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "14",
+        "object_repr": "Beverages",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-04-23T19:00:26.882Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Focaccia",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-04-23T19:06:41.861Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Bruschetta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-04-23T19:08:37.539Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Carpaccio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-04-23T19:41:11.137Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Quattro Formaggio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-04-23T19:42:32.179Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Peperoni",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-04-23T19:44:12.688Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Neapolitana",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-04-23T19:46:48.214Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Margherita",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-04-23T19:48:23.556Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "Carbonara",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-04-23T19:49:43.173Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "Bolognese",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-04-23T19:51:59.033Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "10",
+        "object_repr": "Porcini",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-04-23T19:53:40.370Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "11",
+        "object_repr": "Caprese",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-04-23T19:55:17.351Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "12",
+        "object_repr": "Nicoise",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-04-23T19:57:58.325Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "13",
+        "object_repr": "Caesar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-04-23T19:59:18.951Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "14",
+        "object_repr": "Tomato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-04-23T20:00:41.151Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "15",
+        "object_repr": "Tiramisu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-04-23T20:02:31.851Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "16",
+        "object_repr": "Panettone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-04-23T20:05:04.434Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "17",
+        "object_repr": "Lemonade",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-04-23T20:07:58.531Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "18",
+        "object_repr": "Sparkling water",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-04-23T20:09:41.122Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Red Wine",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-04-23T20:12:10.620Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Mozzarella",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-04-23T20:12:46.652Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Gorgonzola",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-04-23T20:13:16.234Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Parmigiano",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-04-23T20:13:42.206Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Provolone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-04-23T20:14:39.465Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "Tomato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-04-23T20:15:12.658Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "Peperoni",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-04-23T20:15:17.636Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Mozzarella",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prod weight gram\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-04-23T20:15:23.993Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Gorgonzola",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prod weight gram\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-04-23T20:15:29.821Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Parmigiano",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prod weight gram\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-04-23T20:15:36.649Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Provolone",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Prod weight gram\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2024-04-23T20:16:32.634Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "Basil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2024-04-23T20:17:46.154Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "Prosciutto Cotto",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2024-04-23T20:18:18.660Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "Champignons",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2024-04-23T20:18:58.259Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "10",
+        "object_repr": "Egg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2024-04-23T20:23:49.154Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "11",
+        "object_repr": "Bacon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2024-04-23T20:24:11.276Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "12",
+        "object_repr": "Pasta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2024-04-23T20:25:34.282Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "13",
+        "object_repr": "Pork",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2024-04-23T20:27:31.955Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "14",
+        "object_repr": "Dought",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2024-04-23T20:28:37.661Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Quattro Formaggio - Mozzarella",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2024-04-23T20:28:51.043Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Quattro Formaggio - Gorgonzola",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2024-04-23T20:29:03.588Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "Quattro Formaggio - Parmigiano",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2024-04-23T20:29:18.518Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "Quattro Formaggio - Provolone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2024-04-23T20:29:34.861Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "5",
+        "object_repr": "Quattro Formaggio - Dought",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2024-04-23T20:29:54.028Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "6",
+        "object_repr": "Peperoni - Dought",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2024-04-23T20:31:03.876Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "7",
+        "object_repr": "Peperoni - Peperoni",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2024-04-23T20:31:19.819Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "8",
+        "object_repr": "Peperoni - Tomato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2024-04-23T20:31:44.359Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "9",
+        "object_repr": "Peperoni - Mozzarella",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2024-04-23T20:32:21.276Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "10",
+        "object_repr": "Neapolitana - Dought",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2024-04-23T20:32:34.565Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "11",
+        "object_repr": "Neapolitana - Tomato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2024-04-23T20:32:47.293Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "12",
+        "object_repr": "Neapolitana - Mozzarella",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2024-04-23T20:33:06.006Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "13",
+        "object_repr": "Neapolitana - Prosciutto Cotto",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2024-04-23T20:33:24.431Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "14",
+        "object_repr": "Neapolitana - Champignons",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2024-04-23T20:33:37.221Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "15",
+        "object_repr": "Neapolitana - Basil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2024-04-23T20:34:14.452Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "16",
+        "object_repr": "Margherita - Dought",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2024-04-23T20:34:28.424Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "17",
+        "object_repr": "Margherita - Tomato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2024-04-23T20:34:45.687Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "18",
+        "object_repr": "Margherita - Mozzarella",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2024-04-23T20:34:59.941Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "19",
+        "object_repr": "Margherita - Basil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2024-04-23T20:35:47.253Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "20",
+        "object_repr": "Carbonara - Pasta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2024-04-23T20:36:14.241Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "21",
+        "object_repr": "Carbonara - Egg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2024-04-23T20:36:25.673Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "22",
+        "object_repr": "Carbonara - Bacon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2024-04-23T20:36:47.042Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "23",
+        "object_repr": "Carbonara - Parmigiano",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2024-04-23T20:37:11.771Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "24",
+        "object_repr": "Bolognese - Pasta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2024-04-23T20:37:34.037Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "25",
+        "object_repr": "Bolognese - Tomato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2024-04-23T20:37:52.122Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "26",
+        "object_repr": "Bolognese - Pork",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2024-04-23T20:38:07.317Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "27",
+        "object_repr": "Bolognese - Parmigiano",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2024-04-23T20:38:39.715Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "28",
+        "object_repr": "Porcini - Pasta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2024-04-23T20:39:04.009Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "29",
+        "object_repr": "Porcini - Champignons",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2024-04-23T20:39:27.111Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "30",
+        "object_repr": "Porcini - Champignons",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2024-04-23T20:39:41.732Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "29",
+        "object_repr": "Porcini - Champignons",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2024-04-23T20:39:57.695Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "31",
+        "object_repr": "Porcini - Parmigiano",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2024-04-23T20:40:39.898Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "32",
+        "object_repr": "Caprese - Mozzarella",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2024-04-23T20:40:52.948Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "33",
+        "object_repr": "Caprese - Tomato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2024-04-23T20:41:07.291Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "34",
+        "object_repr": "Caprese - Basil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2024-04-23T20:43:29.701Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "Champignon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2024-04-23T20:44:02.037Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "15",
+        "object_repr": "Tuna",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2024-04-23T20:44:48.731Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "16",
+        "object_repr": "Lattuce",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2024-04-23T20:45:20.517Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "35",
+        "object_repr": "Nicoise - Lattuce",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2024-04-23T20:45:34.707Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "36",
+        "object_repr": "Nicoise - Tomato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2024-04-23T20:45:45.231Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "37",
+        "object_repr": "Nicoise - Egg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2024-04-23T20:46:11.862Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "38",
+        "object_repr": "Nicoise - Tuna",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2024-04-23T20:46:49.960Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "39",
+        "object_repr": "Tomato - Tomato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2024-04-23T20:47:11.575Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "40",
+        "object_repr": "Tomato - Mozzarella",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2024-04-23T20:48:10.218Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "17",
+        "object_repr": "Chiken",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2024-04-23T20:48:21.600Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "41",
+        "object_repr": "Caesar - Lattuce",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2024-04-23T20:48:31.397Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "42",
+        "object_repr": "Caesar - Chiken",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2024-04-23T20:48:39.971Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "43",
+        "object_repr": "Caesar - Egg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2024-04-23T20:48:59.697Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "44",
+        "object_repr": "Caesar - Tomato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2024-04-23T20:49:22.904Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "45",
+        "object_repr": "Caesar - Parmigiano",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2024-04-23T20:50:19.194Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "46",
+        "object_repr": "Focaccia - Dought",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2024-04-23T20:51:04.635Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "18",
+        "object_repr": "Veal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2024-04-23T20:51:22.079Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "47",
+        "object_repr": "Carpaccio - Veal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2024-04-23T20:52:21.166Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "48",
+        "object_repr": "Bruschetta - Tomato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2024-04-23T20:52:30.401Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "49",
+        "object_repr": "Bruschetta - Prosciutto Cotto",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2024-04-23T20:52:52.505Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "50",
+        "object_repr": "Bruschetta - Parmigiano",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2024-04-23T20:53:22.963Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "51",
+        "object_repr": "Bruschetta - Dought",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2024-04-23T20:54:11.865Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Table 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2024-04-23T20:54:15.599Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "Table 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2024-04-23T20:54:18.513Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Table 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2024-04-23T20:54:21.308Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "4",
+        "object_repr": "Table 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2024-04-23T20:54:24.680Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "5",
+        "object_repr": "Table 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2024-04-23T20:54:26.800Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "6",
+        "object_repr": "Table 6",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2024-04-23T20:54:28.304Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "7",
+        "object_repr": "Table 7",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2024-04-23T20:54:31.042Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "8",
+        "object_repr": "Table 8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2024-04-23T20:54:32.944Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "9",
+        "object_repr": "Table 9",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2024-04-23T20:54:37.292Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "10",
+        "object_repr": "Table 10",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2024-04-23T20:54:39.324Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "11",
+        "object_repr": "Table 11",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2024-05-02T17:41:37.473Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "4",
+        "object_repr": "Reservation 4",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2024-05-02T18:12:40.113Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Reservation 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 6,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 6,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 6,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 6,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add order",
+        "content_type": 7,
+        "codename": "add_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change order",
+        "content_type": 7,
+        "codename": "change_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete order",
+        "content_type": 7,
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view order",
+        "content_type": 7,
+        "codename": "view_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add shopping cart",
+        "content_type": 8,
+        "codename": "add_shoppingcart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change shopping cart",
+        "content_type": 8,
+        "codename": "change_shoppingcart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete shopping cart",
+        "content_type": 8,
+        "codename": "delete_shoppingcart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view shopping cart",
+        "content_type": 8,
+        "codename": "view_shoppingcart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add shopping cart item",
+        "content_type": 9,
+        "codename": "add_shoppingcartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change shopping cart item",
+        "content_type": 9,
+        "codename": "change_shoppingcartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete shopping cart item",
+        "content_type": 9,
+        "codename": "delete_shoppingcartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view shopping cart item",
+        "content_type": 9,
+        "codename": "view_shoppingcartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add category",
+        "content_type": 10,
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change category",
+        "content_type": 10,
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete category",
+        "content_type": 10,
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view category",
+        "content_type": 10,
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add meal",
+        "content_type": 11,
+        "codename": "add_meal"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change meal",
+        "content_type": 11,
+        "codename": "change_meal"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete meal",
+        "content_type": 11,
+        "codename": "delete_meal"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view meal",
+        "content_type": 11,
+        "codename": "view_meal"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add product",
+        "content_type": 12,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change product",
+        "content_type": 12,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete product",
+        "content_type": 12,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view product",
+        "content_type": 12,
+        "codename": "view_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add meal product",
+        "content_type": 13,
+        "codename": "add_mealproduct"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change meal product",
+        "content_type": 13,
+        "codename": "change_mealproduct"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete meal product",
+        "content_type": 13,
+        "codename": "delete_mealproduct"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view meal product",
+        "content_type": 13,
+        "codename": "view_mealproduct"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add table",
+        "content_type": 14,
+        "codename": "add_table"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change table",
+        "content_type": 14,
+        "codename": "change_table"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete table",
+        "content_type": 14,
+        "codename": "delete_table"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view table",
+        "content_type": 14,
+        "codename": "view_table"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add reservation",
+        "content_type": 15,
+        "codename": "add_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change reservation",
+        "content_type": 15,
+        "codename": "change_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete reservation",
+        "content_type": 15,
+        "codename": "delete_reservation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view reservation",
+        "content_type": 15,
+        "codename": "view_reservation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "users",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "shopping_cart",
+        "model": "order"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "shopping_cart",
+        "model": "shoppingcart"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "shopping_cart",
+        "model": "shoppingcartitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "menu",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "menu",
+        "model": "meal"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "menu",
+        "model": "product"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "menu",
+        "model": "mealproduct"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "reservations",
+        "model": "table"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "reservations",
+        "model": "reservation"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1kc9ckqq8vfmm7tltz66twocp7rjhwvd",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-JP5Q0nMGa9e7xgHkSHFSIe4OkVJA-2bmvUSCba1p67ykicRZaHH63RDyg9sO6A7tNss8t3WZUO6KPGiX15n4eTncv4MKvX7rqAkUKPIuFO8UaYvBch5MAQRgJuexoIlcxuijsgrtMFoO5KGUoI14fwD-0ziU:1s3AWc:OJXvn-dgjCb-o1TlwkqmcE3bkEq40EYd1wl8hFtCiD8",
+        "expire_date": "2024-05-18T08:13:42.898Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "c6xj7iww8n2k3flhpa3znz86mzo422ju",
+    "fields": {
+        "session_data": "e30:1s24IK:vc9a-tMUVHJu8u-Iau8znj2_8I5GMscwam3B3IjoPLk",
+        "expire_date": "2024-05-15T07:22:24.805Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dd3fronw31k9kz5lfbtkmlu3pp1gpiss",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBayjC4dO8ZCMNMpWpoUtqV8e7apAvd_vfef6mYtrXErckSJ1ZnZdXpd6OUH1J3wPdUb7POc12XifSu6IM2fZ1ZnpfD_TsoqZVv3QEa09shOETpBqGQgZjz6LMY6i2hl5ET2OCCN45NQMiEDqzzIELq_QHWRjfC:1s24o8:LznwTZW9FSWQHGf-C8ybvsjH7Pho4uJvgkjuVmcKBPg",
+        "expire_date": "2024-05-15T07:55:16.069Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "e05s03xhx81qg6ivdasahjvb12yleiia",
+    "fields": {
+        "session_data": ".eJxVjDkOwjAUBe_iGlk4Tr5tSnrOYP0NHEC2lKVC3B0ipYD2zcx7mYzrUvI665RHMScD5vC7EfJD6wbkjvXWLLe6TCPZTbE7ne2liT7Pu_t3UHAu35qphyhJg-eIoBqSdiyKPWsPxAk7xoGBvcPkQmIQgni8gkPyJDiY9wcdtTlc:1s7qb6:xxECME4m8HlbS8Xi6xhy8FoYYFTTbAJjIrVBJRvv9WA",
+        "expire_date": "2024-05-31T05:57:40.197Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "gu3tjfjda2ltg5kystbtrtv0yrkhqc1w",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBayjC4dO8ZCMNMpWpoUtqV8e7apAvd_vfef6mYtrXErckSJ1ZnZdXpd6OUH1J3wPdUb7POc12XifSu6IM2fZ1ZnpfD_TsoqZVv3QEa09shOETpBqGQgZjz6LMY6i2hl5ET2OCCN45NQMiEDqzzIELq_QHWRjfC:1s1oWP:JQOtQZXxUvCvuUxJXrTY3vaQFWfsQ1MKccVvaMoqank",
+        "expire_date": "2024-05-14T14:31:53.099Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "in8mr6oba7su9xipmif4x36e8qplradf",
+    "fields": {
+        "session_data": "e30:1s1oUx:o9DBbBcX8eQB2L5I4HnSxyXzfFnc6kuN05TEztURBRQ",
+        "expire_date": "2024-05-14T14:30:23.787Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ufc58tt864w5ln5u0nmzcvbskk09qtt8",
+    "fields": {
+        "session_data": "e30:1s2cIk:hLHJHKrk2Xjg-bOsQyHPg-BIu7G0CF4py_1sYllOgtU",
+        "expire_date": "2024-05-16T19:41:06.599Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "xkiya2kk610tgj24uboy84ivsfmbn3xa",
+    "fields": {
+        "session_data": "e30:1s24Jh:e6_poAIfzuTsYvqH3yqh7TWTH018GEYEP4dcu-pgHPE",
+        "expire_date": "2024-05-15T07:23:49.141Z"
+    }
+},
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$SjPYU8eudpIpt5pYBRmT65$TSKICO8CzviVdx2IvvfiZfJFZ4np/ZvNEmbeKkRR3hA=",
+        "last_login": "2024-05-04T08:13:42.872Z",
+        "is_superuser": true,
+        "username": "lnastiav",
+        "first_name": "Levchenko",
+        "last_name": "Anastasiia",
+        "email": "nastiya.levchenko@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-04-22T18:18:02.574Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$YzWYKWva5G8Gb2lBtoxlRj$PTIpYOZ8YkODC99XH2SBrElQWT7QDzyB9Rmjwf/TP3A=",
+        "last_login": "2024-04-30T14:30:23.799Z",
+        "is_superuser": false,
+        "username": "JaneDoe",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "abc@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-30T14:29:54.406Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$3EUQP5d0AIAMWvPQlJBlNO$yKjuVIRQ/ad6WGrN6Bx1SGSW5GFpUSm8uEeInZH4Tgk=",
+        "last_login": "2024-05-01T07:55:16.060Z",
+        "is_superuser": true,
+        "username": "Natalia",
+        "first_name": "",
+        "last_name": "",
+        "email": "mytsaknat@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-04-30T14:31:22.157Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$V95LeOr5G7LbveKGa1CT7r$K+Obl/ESXbdl0+QmyoSS0BPKiHKwnRMoDZz8/vwehZo=",
+        "last_login": "2024-05-01T07:23:49.192Z",
+        "is_superuser": false,
+        "username": "JohnDoe",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "sample@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-01T07:23:35.005Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$JwUKUj4rtVLdjeCJQA6t39$fchXCwbW06y6HHlAeQztcYKffh4xjM5WYwrhumev+BQ=",
+        "last_login": "2024-05-01T07:54:52.857Z",
+        "is_superuser": false,
+        "username": "JohnSmith",
+        "first_name": "John",
+        "last_name": "Smith",
+        "email": "sample2@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-01T07:31:27.994Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$YBncKvjlqwtpHNot8xHZBZ$d6eS980glVu5xIVC3hfa7g7miBbwncNy1sqHnY/pZKI=",
+        "last_login": "2024-05-17T05:57:40.189Z",
+        "is_superuser": false,
+        "username": "AnnaSmith",
+        "first_name": "Anna1",
+        "last_name": "Smith",
+        "email": "mytsaknat@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-16T13:16:57.557Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "shopping_cart.shoppingcart",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "is_active": false
+    }
+},
+{
+    "model": "shopping_cart.shoppingcart",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "is_active": false
+    }
+},
+{
+    "model": "shopping_cart.shoppingcart",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "is_active": false
+    }
+},
+{
+    "model": "shopping_cart.shoppingcart",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "is_active": true
+    }
+},
+{
+    "model": "shopping_cart.shoppingcart",
+    "pk": 5,
+    "fields": {
+        "user": 6,
+        "is_active": true
+    }
+},
+{
+    "model": "shopping_cart.shoppingcartitem",
+    "pk": 2,
+    "fields": {
+        "shopping_cart": 1,
+        "quantity": 1,
+        "total_price": "265.00",
+        "meal": 3
+    }
+},
+{
+    "model": "shopping_cart.shoppingcartitem",
+    "pk": 3,
+    "fields": {
+        "shopping_cart": 1,
+        "quantity": 1,
+        "total_price": "65.00",
+        "meal": 1
+    }
+},
+{
+    "model": "shopping_cart.shoppingcartitem",
+    "pk": 4,
+    "fields": {
+        "shopping_cart": 3,
+        "quantity": 1,
+        "total_price": "65.00",
+        "meal": 1
+    }
+},
+{
+    "model": "shopping_cart.shoppingcartitem",
+    "pk": 5,
+    "fields": {
+        "shopping_cart": 4,
+        "quantity": 1,
+        "total_price": "65.00",
+        "meal": 1
+    }
+},
+{
+    "model": "shopping_cart.order",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "address": "Kyiv",
+        "total_price": "265.00",
+        "shopping_cart": 1,
+        "status": "Waiting for processing"
+    }
+},
+{
+    "model": "shopping_cart.order",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "address": "Kyiv",
+        "total_price": "330.00",
+        "shopping_cart": 1,
+        "status": "Waiting for processing"
+    }
+},
+{
+    "model": "shopping_cart.order",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "address": "Kyiv",
+        "total_price": "0.00",
+        "shopping_cart": 2,
+        "status": "Waiting for processing"
+    }
+},
+{
+    "model": "shopping_cart.order",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "address": "Kyiv",
+        "total_price": "65.00",
+        "shopping_cart": 3,
+        "status": "Waiting for processing"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 1,
+    "fields": {
+        "name": "Mozzarella",
+        "prod_weight_gram": 5000,
+        "prod_price": "4.50"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 2,
+    "fields": {
+        "name": "Gorgonzola",
+        "prod_weight_gram": 1000,
+        "prod_price": "10.45"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 3,
+    "fields": {
+        "name": "Parmigiano",
+        "prod_weight_gram": 5000,
+        "prod_price": "8.30"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 4,
+    "fields": {
+        "name": "Provolone",
+        "prod_weight_gram": 900,
+        "prod_price": "10.25"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 5,
+    "fields": {
+        "name": "Tomato",
+        "prod_weight_gram": 5000,
+        "prod_price": "3.20"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 6,
+    "fields": {
+        "name": "Peperoni",
+        "prod_weight_gram": 3000,
+        "prod_price": "5.39"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 7,
+    "fields": {
+        "name": "Basil",
+        "prod_weight_gram": 600,
+        "prod_price": "2.00"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 8,
+    "fields": {
+        "name": "Prosciutto Cotto",
+        "prod_weight_gram": 4500,
+        "prod_price": "6.28"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 9,
+    "fields": {
+        "name": "Champignon",
+        "prod_weight_gram": 3500,
+        "prod_price": "4.50"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 10,
+    "fields": {
+        "name": "Egg",
+        "prod_weight_gram": 7000,
+        "prod_price": "0.50"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 11,
+    "fields": {
+        "name": "Bacon",
+        "prod_weight_gram": 2500,
+        "prod_price": "4.25"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 12,
+    "fields": {
+        "name": "Pasta",
+        "prod_weight_gram": 8000,
+        "prod_price": "1.80"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 13,
+    "fields": {
+        "name": "Pork",
+        "prod_weight_gram": 6500,
+        "prod_price": "10.30"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 14,
+    "fields": {
+        "name": "Dought",
+        "prod_weight_gram": 9000,
+        "prod_price": "4.28"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 15,
+    "fields": {
+        "name": "Tuna",
+        "prod_weight_gram": 700,
+        "prod_price": "18.00"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 16,
+    "fields": {
+        "name": "Lattuce",
+        "prod_weight_gram": 5000,
+        "prod_price": "2.40"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 17,
+    "fields": {
+        "name": "Chiken",
+        "prod_weight_gram": 2000,
+        "prod_price": "9.50"
+    }
+},
+{
+    "model": "menu.product",
+    "pk": 18,
+    "fields": {
+        "name": "Veal",
+        "prod_weight_gram": 3500,
+        "prod_price": "12.30"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 8,
+    "fields": {
+        "name": "Appetizers"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 9,
+    "fields": {
+        "name": "Pizza"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 10,
+    "fields": {
+        "name": "Pasta"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 11,
+    "fields": {
+        "name": "Salads"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 12,
+    "fields": {
+        "name": "Soups"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 13,
+    "fields": {
+        "name": "Desserts"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 14,
+    "fields": {
+        "name": "Beverages"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 1,
+    "fields": {
+        "name": "Focaccia",
+        "weight": 195,
+        "price": "65.00",
+        "category": 8,
+        "is_vegan": true,
+        "is_spicy": false,
+        "image": "meals_images/Focaccia.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 2,
+    "fields": {
+        "name": "Bruschetta",
+        "weight": 130,
+        "price": "135.00",
+        "category": 8,
+        "is_vegan": false,
+        "is_spicy": false,
+        "image": "meals_images/Bruschetta.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 3,
+    "fields": {
+        "name": "Carpaccio",
+        "weight": 110,
+        "price": "265.00",
+        "category": 8,
+        "is_vegan": false,
+        "is_spicy": false,
+        "image": "meals_images/Carpaccio.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 4,
+    "fields": {
+        "name": "Quattro Formaggio",
+        "weight": 340,
+        "price": "295.00",
+        "category": 9,
+        "is_vegan": true,
+        "is_spicy": false,
+        "image": "meals_images/QuattroFormaggio.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 5,
+    "fields": {
+        "name": "Peperoni",
+        "weight": 420,
+        "price": "295.00",
+        "category": 9,
+        "is_vegan": false,
+        "is_spicy": true,
+        "image": "meals_images/Peperoni.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 6,
+    "fields": {
+        "name": "Neapolitana",
+        "weight": 430,
+        "price": "285.00",
+        "category": 9,
+        "is_vegan": false,
+        "is_spicy": false,
+        "image": "meals_images/Neapolitana.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 7,
+    "fields": {
+        "name": "Margherita",
+        "weight": 340,
+        "price": "189.00",
+        "category": 9,
+        "is_vegan": true,
+        "is_spicy": false,
+        "image": "meals_images/Margherita.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 8,
+    "fields": {
+        "name": "Carbonara",
+        "weight": 250,
+        "price": "175.00",
+        "category": 10,
+        "is_vegan": false,
+        "is_spicy": false,
+        "image": "meals_images/Carbonara.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 9,
+    "fields": {
+        "name": "Bolognese",
+        "weight": 370,
+        "price": "205.00",
+        "category": 10,
+        "is_vegan": false,
+        "is_spicy": true,
+        "image": "meals_images/Bolognese.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 10,
+    "fields": {
+        "name": "Porcini",
+        "weight": 310,
+        "price": "239.00",
+        "category": 10,
+        "is_vegan": true,
+        "is_spicy": false,
+        "image": "meals_images/Porcini.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 11,
+    "fields": {
+        "name": "Caprese",
+        "weight": 300,
+        "price": "205.00",
+        "category": 11,
+        "is_vegan": true,
+        "is_spicy": false,
+        "image": "meals_images/Caprese.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 12,
+    "fields": {
+        "name": "Nicoise",
+        "weight": 250,
+        "price": "275.00",
+        "category": 11,
+        "is_vegan": false,
+        "is_spicy": false,
+        "image": "meals_images/Nicoise.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 13,
+    "fields": {
+        "name": "Caesar",
+        "weight": 310,
+        "price": "235.00",
+        "category": 11,
+        "is_vegan": false,
+        "is_spicy": false,
+        "image": "meals_images/Caesar.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 14,
+    "fields": {
+        "name": "Tomato",
+        "weight": 250,
+        "price": "99.00",
+        "category": 12,
+        "is_vegan": true,
+        "is_spicy": true,
+        "image": "meals_images/Tomato.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 15,
+    "fields": {
+        "name": "Tiramisu",
+        "weight": 170,
+        "price": "169.00",
+        "category": 13,
+        "is_vegan": false,
+        "is_spicy": false,
+        "image": "meals_images/Tiramisu.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 16,
+    "fields": {
+        "name": "Panettone",
+        "weight": 400,
+        "price": "350.00",
+        "category": 13,
+        "is_vegan": false,
+        "is_spicy": false,
+        "image": "meals_images/Panettone.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 17,
+    "fields": {
+        "name": "Lemonade",
+        "weight": 500,
+        "price": "89.00",
+        "category": 14,
+        "is_vegan": false,
+        "is_spicy": false,
+        "image": "meals_images/Lemonade.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 18,
+    "fields": {
+        "name": "Sparkling water",
+        "weight": 500,
+        "price": "45.00",
+        "category": 14,
+        "is_vegan": false,
+        "is_spicy": false,
+        "image": "meals_images/SparklingWater.jpg"
+    }
+},
+{
+    "model": "menu.meal",
+    "pk": 19,
+    "fields": {
+        "name": "Red Wine",
+        "weight": 750,
+        "price": "450.00",
+        "category": 14,
+        "is_vegan": false,
+        "is_spicy": false,
+        "image": "meals_images/RedWine.jpg"
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 1,
+    "fields": {
+        "meal": 4,
+        "product": 1,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 2,
+    "fields": {
+        "meal": 4,
+        "product": 2,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 3,
+    "fields": {
+        "meal": 4,
+        "product": 3,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 4,
+    "fields": {
+        "meal": 4,
+        "product": 4,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 5,
+    "fields": {
+        "meal": 4,
+        "product": 14,
+        "prod_amount": 100
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 6,
+    "fields": {
+        "meal": 5,
+        "product": 14,
+        "prod_amount": 100
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 7,
+    "fields": {
+        "meal": 5,
+        "product": 6,
+        "prod_amount": 30
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 8,
+    "fields": {
+        "meal": 5,
+        "product": 5,
+        "prod_amount": 50
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 9,
+    "fields": {
+        "meal": 5,
+        "product": 1,
+        "prod_amount": 60
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 10,
+    "fields": {
+        "meal": 6,
+        "product": 14,
+        "prod_amount": 100
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 11,
+    "fields": {
+        "meal": 6,
+        "product": 5,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 12,
+    "fields": {
+        "meal": 6,
+        "product": 1,
+        "prod_amount": 50
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 13,
+    "fields": {
+        "meal": 6,
+        "product": 8,
+        "prod_amount": 30
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 14,
+    "fields": {
+        "meal": 6,
+        "product": 9,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 15,
+    "fields": {
+        "meal": 6,
+        "product": 7,
+        "prod_amount": 20
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 16,
+    "fields": {
+        "meal": 7,
+        "product": 14,
+        "prod_amount": 100
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 17,
+    "fields": {
+        "meal": 7,
+        "product": 5,
+        "prod_amount": 60
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 18,
+    "fields": {
+        "meal": 7,
+        "product": 1,
+        "prod_amount": 70
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 19,
+    "fields": {
+        "meal": 7,
+        "product": 7,
+        "prod_amount": 30
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 20,
+    "fields": {
+        "meal": 8,
+        "product": 12,
+        "prod_amount": 70
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 21,
+    "fields": {
+        "meal": 8,
+        "product": 10,
+        "prod_amount": 30
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 22,
+    "fields": {
+        "meal": 8,
+        "product": 11,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 23,
+    "fields": {
+        "meal": 8,
+        "product": 3,
+        "prod_amount": 30
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 24,
+    "fields": {
+        "meal": 9,
+        "product": 12,
+        "prod_amount": 70
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 25,
+    "fields": {
+        "meal": 9,
+        "product": 5,
+        "prod_amount": 50
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 26,
+    "fields": {
+        "meal": 9,
+        "product": 13,
+        "prod_amount": 70
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 27,
+    "fields": {
+        "meal": 9,
+        "product": 3,
+        "prod_amount": 30
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 28,
+    "fields": {
+        "meal": 10,
+        "product": 12,
+        "prod_amount": 70
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 30,
+    "fields": {
+        "meal": 10,
+        "product": 9,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 31,
+    "fields": {
+        "meal": 10,
+        "product": 3,
+        "prod_amount": 30
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 32,
+    "fields": {
+        "meal": 11,
+        "product": 1,
+        "prod_amount": 70
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 33,
+    "fields": {
+        "meal": 11,
+        "product": 5,
+        "prod_amount": 80
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 34,
+    "fields": {
+        "meal": 11,
+        "product": 7,
+        "prod_amount": 30
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 35,
+    "fields": {
+        "meal": 12,
+        "product": 16,
+        "prod_amount": 100
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 36,
+    "fields": {
+        "meal": 12,
+        "product": 5,
+        "prod_amount": 50
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 37,
+    "fields": {
+        "meal": 12,
+        "product": 10,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 38,
+    "fields": {
+        "meal": 12,
+        "product": 15,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 39,
+    "fields": {
+        "meal": 14,
+        "product": 5,
+        "prod_amount": 200
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 40,
+    "fields": {
+        "meal": 14,
+        "product": 1,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 41,
+    "fields": {
+        "meal": 13,
+        "product": 16,
+        "prod_amount": 70
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 42,
+    "fields": {
+        "meal": 13,
+        "product": 17,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 43,
+    "fields": {
+        "meal": 13,
+        "product": 10,
+        "prod_amount": 50
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 44,
+    "fields": {
+        "meal": 13,
+        "product": 5,
+        "prod_amount": 50
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 45,
+    "fields": {
+        "meal": 13,
+        "product": 3,
+        "prod_amount": 30
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 46,
+    "fields": {
+        "meal": 1,
+        "product": 14,
+        "prod_amount": 200
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 47,
+    "fields": {
+        "meal": 3,
+        "product": 18,
+        "prod_amount": 100
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 48,
+    "fields": {
+        "meal": 2,
+        "product": 5,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 49,
+    "fields": {
+        "meal": 2,
+        "product": 8,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 50,
+    "fields": {
+        "meal": 2,
+        "product": 3,
+        "prod_amount": 40
+    }
+},
+{
+    "model": "menu.mealproduct",
+    "pk": 51,
+    "fields": {
+        "meal": 2,
+        "product": 14,
+        "prod_amount": 70
+    }
+},
+{
+    "model": "reservations.table",
+    "pk": 1,
+    "fields": {
+        "max_number": 2
+    }
+},
+{
+    "model": "reservations.table",
+    "pk": 2,
+    "fields": {
+        "max_number": 2
+    }
+},
+{
+    "model": "reservations.table",
+    "pk": 3,
+    "fields": {
+        "max_number": 2
+    }
+},
+{
+    "model": "reservations.table",
+    "pk": 4,
+    "fields": {
+        "max_number": 2
+    }
+},
+{
+    "model": "reservations.table",
+    "pk": 5,
+    "fields": {
+        "max_number": 4
+    }
+},
+{
+    "model": "reservations.table",
+    "pk": 6,
+    "fields": {
+        "max_number": 4
+    }
+},
+{
+    "model": "reservations.table",
+    "pk": 7,
+    "fields": {
+        "max_number": 4
+    }
+},
+{
+    "model": "reservations.table",
+    "pk": 8,
+    "fields": {
+        "max_number": 6
+    }
+},
+{
+    "model": "reservations.table",
+    "pk": 9,
+    "fields": {
+        "max_number": 6
+    }
+},
+{
+    "model": "reservations.table",
+    "pk": 10,
+    "fields": {
+        "max_number": 8
+    }
+},
+{
+    "model": "reservations.table",
+    "pk": 11,
+    "fields": {
+        "max_number": 8
+    }
+},
+{
+    "model": "reservations.reservation",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "table": 8,
+        "time": "2024-05-03T18:00:00Z",
+        "status": true
+    }
+},
+{
+    "model": "reservations.reservation",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "table": 8,
+        "time": "2024-05-03T18:00:00Z",
+        "status": true
+    }
+},
+{
+    "model": "reservations.reservation",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "table": 1,
+        "time": "2024-05-02T19:00:00Z",
+        "status": true
+    }
+}
+]
