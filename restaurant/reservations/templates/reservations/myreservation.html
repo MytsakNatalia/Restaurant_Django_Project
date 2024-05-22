@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Reservations</title>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            
+            th, td {
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+            
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+</head>
+{% extends 'reservations/base.html' %}
+{% block content %}
+<body>
+    <h1>Your Reservations</h1>
+
+    {% if no_reservations %}
+        <p>You have no reservations.</p>
+    {% else %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Table ID</th>
+                    <th>Number of People</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for reservation in reservations %}
+                    <tr>
+                        <td>{{ reservation.date }}</td>
+                        <td>{{ reservation.time }}</td>
+                        <td>{{ reservation.table_id }}</td>
+                        <td>{{ reservation.num_people }}</td>
+                        <td>
+                            {% if not reservation.status%}                               
+                                <a href="{% url 'reservations:cancel_reservation' reservation.id %}" class="btn btn-danger btn-lg ml-5">CANCEL</a>
+                            {% else %}
+                                NOT CANCELABLE
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+</body>
+{%endblock%}
+
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+{% extends 'reservations/base.html' %}
+{% load static %}
+{% block content %}
+<body>
+        <h1>Table Booking</h1>
+        
+        <div class="container">
+            <div class="image-container">
+                <img src="{% static 'vendor/img/Map.jpg' %}" alt="Map" style="width: 400px; height: auto; margin-right: 20px">
+            </div>
+
+            {% if messages %}
+            <div class="message-container">
+                {% for message in messages %}
+                    <p>{{ message }}</p>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+        <form action="/reservations/booktbl/" method="post">
+            {% csrf_token %}
+            <label for="people">Number of People:</label>
+            <input type="number" id="people" name="people" min="1" max="8" required><br><br>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required step="3600"><br><br>                        
+            
+            <input type="submit" value="Book Table">
+        </form>   
+        
+        <script>            
+            var today = new Date().toISOString().split('T')[0];
+                        
+            document.getElementById('date').setAttribute('min', today);
+        </script>
+
+</body>
+{%endblock%}

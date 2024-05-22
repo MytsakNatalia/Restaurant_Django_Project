@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+{% extends 'menu/base.html' %}
+{% block content %}
+<body>
+    <style>
+        .category-title {
+            margin-top: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .category-title {
+            margin-top: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;            
+        }
+
+        .meal-card {
+            width: 300px;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .meal-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .meal-card h3 {
+            margin-top: 0;
+        }
+
+        .meal-card p {
+            margin-bottom: 0;
+        }
+    </style>
+
+    <div class="container">        
+            {% for category in categories %}
+                <div class="category-title">
+                    <h2>{{ category.name }}</h2>
+                </div>
+                <div class="row">                
+                    {% for meal in meals %}
+                        {% if meal.category == category %}
+                            <div class="col-md-4">
+                                <div class="meal-card">
+                                    {% if meal.image %}
+                                        <img src="{{ meal.image.url }}" alt="{{ meal.name }}">
+                                    {% endif %}
+                                    <h3>{{ meal.name }}</h3>
+                                    <p>Price: ${{ meal.price }}</p>
+                                    <p>Weight: {{ meal.weight }}g</p>
+                                    <p>{% if meal.is_vegan %}Vegan{% endif %}{% if meal.is_spicy %} | Spicy{% endif %}</p>
+                                    <a href="{% url 'menu:meal_detail' meal.id %}" class="btn btn-primary">Details</a>
+                                    <a href="{% url 'shopping_cart:add_to_cart' meal.id %}" class="btn btn-success">Add to cart</a>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            {% endfor %}        
+    </div>
+</body>
+{% endblock %}
+</html>

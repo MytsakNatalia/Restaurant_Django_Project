@@ -1,5 +1,8 @@
 from django.db import models
 from users.models import User
+from datetime import datetime, timedelta
+from django.utils import timezone
+
 
 class Table(models.Model):
     max_number = models.IntegerField()
@@ -15,3 +18,15 @@ class Reservation(models.Model):
 
     def __str__(self):
         return f"Reservation {self.id}"
+            
+    def is_cancelable(self):
+        now = timezone.now()
+        return self.time > now + timedelta(days=1)
+    
+    def process_reservations():        
+        reservations = Reservation.objects.all()
+        
+        for reservation in reservations:
+            if not reservation.is_cancelable():
+                reservation.status = True
+                reservation.save()

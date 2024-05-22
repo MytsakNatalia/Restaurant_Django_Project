@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>        
+        header {
+            width: 100%;
+            background-color: #fff;
+            z-index: 1000; 
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        .category-strip {
+            background-color: #f8f9fa; 
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .category-strip ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .category-strip ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .selected-category-title {
+            margin-top: 20px;
+            border-bottom: 2px solid blue; 
+            padding-bottom: 10px;
+        }
+
+        .category-title {
+            margin-top: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;           
+        }
+        
+        .additional-links {
+            display: inline-block;
+            margin-top: 10px; 
+        }
+
+        .additional-links ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .additional-links ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>NaNa Italiano</h1>
+                    <p>Anastasiia Levchenko & Nataliia Mytsak</p>
+                </div>
+
+            </div>
+        </div>
+        
+        <!-- Navigation for categories -->
+    <nav class="category-strip">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="{% url 'menu:index' %}" {% if not selected_category_id %}class="active"{% endif %}>All Categories</a>
+                </li>
+                {% for category in categories %}
+                    <li>
+                        <a href="{% url 'menu:category' category.id %}" {% if selected_category_id == category.id %}class="active"{% endif %}>
+                            {{ category.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+
+
+    <nav class="category-strip">
+        <div class="container">
+            <ul>
+                <li><a href="{% url 'menu:index' %}?vegan=1" {% if vegan %}class="active"{% endif %}>Vegan</a></li>
+                <li><a href="{% url 'menu:index' %}?spicy=1" {% if spicy %}class="active"{% endif %}>Spicy</a></li>
+            </ul>
+        </div>
+    </nav>
+
+        <!-- Navigation for additional links -->
+        <nav class="additional-links">
+            <div class="container">
+                <ul>
+                    <li><a href="{%url 'shopping_cart:view_cart'%}">My Box</a></li>
+                    <li><a href="{% url 'reservations:user_reservations'%}">My Reservations</a></li>
+                    <li> <a href="{% url 'reservations:booktbl'%}"> Book Table</a></li>
+                    <li> <a href="{% url 'users:profile'%}"> My Profile</a></li>
+                    <li><a href="{%url 'users:login' %}">Log out</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Contact Us</h4>
+                    <p>Phone: +380 (65) 777 88 99</p>
+                    <p>Address: Central Square, Kyiv, Ukraine</p>
+                    <h4>Business Hours:<br> Mon-Sat: 10am - 10pm<br> Sun: 11pm - 8pm</h4>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>                
+                    <p>Instagram:  @nana_italiano</p>                    
+                    <p>TikTok:     @nana_italiano</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2024 NaNa Italiano. All Rights Reserved.</p>
+                    <p>Privacy Policy | Terms of Service</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
