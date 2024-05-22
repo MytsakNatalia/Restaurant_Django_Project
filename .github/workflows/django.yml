@@ -29,17 +29,7 @@ jobs:
     - name: Run Django tests
       run:  python restaurant/manage.py test
 
-    - name: Generate HTML report
-      run: |
-        docker exec my-container coverage run manage.py test
-        docker exec my-container coverage html
-
-    - name: Upload reports
-      uses: actions/upload-artifact@v2
-      with:
-        name: Test and lint reports
-        path: |
-          htmlcov/index.html
+   
   merge:
     needs: build
     runs-on: ubuntu-latest
