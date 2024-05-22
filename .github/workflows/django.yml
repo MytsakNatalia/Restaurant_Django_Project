@@ -27,7 +27,7 @@ jobs:
    
 
     - name: Run Django tests
-      run: docker exec my-container python manage.py test
+      run:  python manage.py test
 
     - name: Generate HTML report
       run: |
