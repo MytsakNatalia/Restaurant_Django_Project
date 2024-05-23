@@ -36,10 +36,10 @@ jobs:
       run: python restaurant/manage.py test reservations
 
     - name: Run tests for users
-      run: python restaurant/manage.py test users
+      run: python restaurant/manage.py test users.tests
 
     - name: Run tests for shopping_cart
-      run: python restaurant/manage.py test shopping_cart
+      run: python restaurant/manage.py test shopping_cart.tests
 
            
 
