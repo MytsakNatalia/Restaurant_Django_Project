@@ -99,4 +99,5 @@ jobs:
               heroku_email: "nastiya.levchenko@knu.ua"
       
           - name: Deploy to Heroku
+            heroku config:set DISABLE_COLLECTSTATIC=0
             run: git push heroku HEAD:main
