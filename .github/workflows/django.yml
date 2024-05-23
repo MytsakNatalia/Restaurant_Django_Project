@@ -33,7 +33,7 @@ jobs:
       run: docker run --name my-container -d -i -t -e DJANGO_SETTINGS_MODULE=restaurant.settings my-image-name:1234567890 /bin/sh
 
     - name: Run Django tests
-      run: docker exec my-container python restaurant/manage.py test
+      run: docker exec my-container python manage.py test menu reservatins
 
    
   merge:
