@@ -2,7 +2,9 @@ name: Django CI
 
 on:
   push:
-    branches: [main]      
+    branches: 
+      - main
+     
   pull_request:
     branches: [main]      
 
@@ -23,13 +25,24 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        
+    - name: Set environment variables
+      run: echo "SECRET_KEY=${{ secrets.SECRET_KEY }}" >> $GITHUB_ENV
+  
+    - name: Run tests for menu
+      run: python restaurant/manage.py test menu
 
-   
+    - name: Run tests for reservations
+      run: python restaurant/manage.py test reservations
 
-    - name: Run Django tests
-      run:  python restaurant/manage.py test
+    - name: Run tests for users
+      run: python restaurant/manage.py test users.tests
 
-   
+    - name: Run tests for shopping_cart
+      run: python restaurant/manage.py test shopping_cart.tests
+
+           
+
   merge:
     needs: build
     runs-on: ubuntu-latest
