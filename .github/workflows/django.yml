@@ -28,24 +28,18 @@ jobs:
         
     - name: Set environment variables
       run: echo "SECRET_KEY=${{ secrets.SECRET_KEY }}" >> $GITHUB_ENV
-      
-    - name: Build Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:1234567890
-
-    - name: Run Docker container
-      run: docker run --name my-container -d -i -t -e DJANGO_SETTINGS_MODULE=restaurant.settings my-image-name:1234567890 /bin/sh
-
+  
     - name: Run tests for menu
-      run: docker exec my-container python restaurant/manage.py test menu
+      run: python restaurant/manage.py test menu
 
     - name: Run tests for reservations
-      run: docker exec my-container python restaurant/manage.py test reservations
+      run: python restaurant/manage.py test reservations
 
     - name: Run tests for users
-      run: docker exec my-container python restaurant/manage.py test users
+      run: python restaurant/manage.py test users
 
     - name: Run tests for shopping_cart
-      run: docker exec my-container python restaurant/manage.py test shopping_cart
+      run: python restaurant/manage.py test shopping_cart
            
 
 
